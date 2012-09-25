@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:persistent="false" android:title="@string/callsettings_allcalls_autoreject" android:key="auto_reject" android:summary="@string/callsettings_list1_sub_text" />
+    <PreferenceScreen android:persistent="false" android:title="@string/reject_call_with_msg" android:key="reject_call" android:summary="@string/reject_call_with_msg_sub_text" />
+    <PreferenceScreen android:persistent="false" android:title="@string/callsettings_allcalls_answeringcall" android:key="answering_call" android:summary="@string/callsettings_list2_sub_text" />
+    <CheckBoxPreference android:title="@string/menu_activateProximitySensor" android:key="proximity_sensor_preference" android:summary="@string/summary_activateProximitySensor" />
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="call_forwarding" />
+    <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="fixed_dialing" android:summary="@string/sum_fdn" />
+    <PreferenceScreen android:persistent="false" android:title="@string/voicemail" android:key="voicemail" />
+    <PreferenceScreen android:persistent="false" android:title="@string/additional_gsm_call_settings" android:key="additional_settings" />
+</PreferenceScreen>

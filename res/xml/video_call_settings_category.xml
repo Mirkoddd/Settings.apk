@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:persistent="false" android:title="@string/category_videoCallSettings" android:key="button_videocall_category_key">
+        <PreferenceScreen android:persistent="false" android:enabled="true" android:title="@string/menu_videocallImage" android:key="preset_image" android:summary="@string/summary_videocallImage" />
+        <CheckBoxPreference android:title="@string/menu_ownVideoInReceivedCall" android:key="showme_preference" android:summary="@string/summary_ownVideoInReceivedCall" />
+        <CheckBoxPreference android:title="@string/menu_useCallFailOption" android:key="failoption_preference" android:summary="@string/summary_useCallFailOption" />
+    </PreferenceCategory>
+</PreferenceScreen>

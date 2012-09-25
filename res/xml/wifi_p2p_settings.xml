@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_p2p_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.SettingsSwitchPreference android:title="@string/wifi_p2p_settings_title" android:key="multiPane_switch" />
+    <PreferenceCategory android:title="@string/wifi_p2p_connected_devices" android:key="connected" />
+    <com.android.settings.ProgressCategory android:title="@string/wifi_p2p_available_devices" android:key="available" />
+    <PreferenceCategory android:title="@string/wifi_p2p_busy_devices" android:key="busy" />
+</PreferenceScreen>

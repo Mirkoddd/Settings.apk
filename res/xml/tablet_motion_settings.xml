@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/motion_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/motion_activation" android:key="motion_activation" />
+    <SwitchPreferenceScreen android:title="@string/tilt_title" android:key="tilt" android:summary="@string/tilt_summary" android:dependency="motion_activation" android:fragment="com.android.settings.motion.MotionView">
+        <extra android:name="title" android:value="@string/tilt_title" />
+        <extra android:name="sensitivity" android:value="true" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/pan_title" android:key="pan" android:summary="@string/pan_summary" android:dependency="motion_activation" android:fragment="com.android.settings.motion.MotionView">
+        <extra android:name="title" android:value="@string/pan_title" />
+        <extra android:name="sensitivity" android:value="true" />
+    </SwitchPreferenceScreen>
+</PreferenceScreen>

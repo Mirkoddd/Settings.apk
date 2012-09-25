@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_format_entries">
+        <item>OO/KK/YYYY</item>
+        <item>KK/OO/YYYY</item>
+        <item>YYYY/OO/KK</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 soniya</item>
+        <item>30 soniya</item>
+        <item>1 daqiqa</item>
+        <item>2 daqiqa</item>
+        <item>5 daqiqa</item>
+        <item>10 daqiqa</item>
+        <item>30 daqiqa</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Hech qachon</item>
+        <item>15 soniya</item>
+        <item>30 soniya</item>
+        <item>1 daqiqa</item>
+        <item>2 daqiqa</item>
+        <item>5 daqiqa</item>
+        <item>10 daqiqa</item>
+        <item>30 daqiqa</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Darhol</item>
+        <item>5 soniya</item>
+        <item>15 soniya</item>
+        <item>30 soniya</item>
+        <item>1 daqiqa</item>
+        <item>2 daqiqa</item>
+        <item>5 daqiqa</item>
+        <item>10 daqiqa</item>
+        <item>30 daqiqa</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Mitti</item>
+        <item>Kichik</item>
+        <item>Normal</item>
+        <item>Katta</item>
+        <item>Ulkan</item>
+    </string-array>
+    <string-array name="entries_font_size_q1">
+        <item>Ulkan</item>
+        <item>Katta</item>
+        <item>Normal</item>
+        <item>Kichik</item>
+        <item>Mitti</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Juda sekin</item>
+        <item>Sekin</item>
+        <item>Normal</item>
+        <item>Tez</item>
+        <item>Juda tez</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Ko'rib chiqilmoqda…"</item>
+        <item>Ulanmoqda...</item>
+        <item>Haqiqiylik tekshirilmoqda...</item>
+        <item>IP-manzillar olinmoqda...</item>
+        <item>Ulangan</item>
+        <item>To‘xtatildi</item>
+        <item>Uzilmoqda...</item>
+        <item>Uzilgan</item>
+        <item>Muvaffaqiyatsiz</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Ko'rib chiqilmoqda…"</item>
+        <item>%sga ulanmoqda...</item>
+        <item>%s bilan avtorizatsiyalash</item>
+        <item>%sdan IP-manzil olinmoqda...</item>
+        <item>%1$sga ulangan</item>
+        <item>To‘xtatildi</item>
+        <item>%sdan uzilmoqda...</item>
+        <item>Uzilgan</item>
+        <item>Muvaffaqiyatsiz</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Vaqt hech qachon tugamaydi</item>
+        <item>5 daqiqa</item>
+        <item>10 daqiqa</item>
+        <item>20 daqiqa</item>
+        <item>30 daqiqa</item>
+        <item>60 daqiqa</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Tugmani bosing</item>
+        <item>Teng huquqli qurilmadan olingan PIN-kod</item>
+        <item>Ushbu qurilmadan olingan PIN-kod</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Ulangan</item>
+        <item>Taklif qilinganlar</item>
+        <item>Ulanib bo‘lmadi</item>
+        <item>Ulanish uchun cherting</item>
+        <item>Diapazondan tashqari</item>
+        <item>Boshqa qurilma bilan ulandi</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 daq.</item>
+        <item>5 daq.</item>
+        <item>1 soat</item>
+        <item>Vaqt hech qachon tugamaydi</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Kuchsiz</item>
+        <item>Kuchsiz</item>
+        <item>Yaxshi</item>
+        <item>Yaxshi</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Har doim</item>
+        <item>Faqatgina quvvat manbaiga ulanganda</item>
+        <item>"Hech qachon (ma'lumot ishlatilishini oshiradi)"</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Har doim</item>
+        <item>Faqatgina quvvat manbaiga ulanganda</item>
+        <item>Hech qachon</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Avtomatik</item>
+        <item>Faqat 5 GGts</item>
+        <item>FAqat 2.4 GGts</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Foydalanish vaqti</item>
+        <item>Yuklashlar hisobi</item>
+        <item>Ilova nomi</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Hech qaysi</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>O‘ch.</item>
+        <item>Tugmani bosing</item>
+        <item>Kirish nuqtasidan olingan PIN-kod</item>
+        <item>Ushbu qurilmadan olingan PIN-kod</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statik</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Hech qaysi</item>
+        <item>Qo‘lda</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>O‘ch.</item>
+        <item>Signal</item>
+        <item>Vibratsiya</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Hech qaysi</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP yoki CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Aniqlanmagan</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Ichki qurilma xotirasi</item>
+        <item>Chiqariladigan SD-karta</item>
+        <item>"Birlamchi o'rnatilgan holat"</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>O‘ch.</item>
+        <item>Vibratsiya</item>
+        <item>Ovozsiz</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Qisqa</item>
+        <item>O‘rtacha</item>
+        <item>Uzun</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Hech qachon tekshirilmasin</item>
+        <item>Faqat DRM tarkib qidirilsin</item>
+        <item>Hardoim tekshirish</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Hech qachon HDCP tekshiruvidan foydalanilmasin</item>
+        <item>HDCP tekshiruvidan faqatgina DRM tarkib uchun foydalanilsin</item>
+        <item>Har doim HDCP tekshiruvi foydalanilsin</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animatsiya o‘ch.</item>
+        <item>Animatsiya shkalasi 0.5x</item>
+        <item>Animatsiya shkalasi 1x</item>
+        <item>Animatsiya shkalasi 1.5x</item>
+        <item>Animatsiya shkalasi 2x</item>
+        <item>Animatsiya shkalasi 5x</item>
+        <item>Animatsiya shkalasi 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animatsiya o‘ch.</item>
+        <item>Animatsiya shkalasi 0.5x</item>
+        <item>Animatsiya shkalasi 1x</item>
+        <item>Animatsiya shkalasi 1.5x</item>
+        <item>Animatsiya shkalasi 2x</item>
+        <item>Animatsiya shkalasi 5x</item>
+        <item>Animatsiya shkalasi 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standart cheklov</item>
+        <item>Fonda jarayonlar mavjud emas</item>
+        <item>Ko‘pi bilan 1 jarayon</item>
+        <item>Ko‘pi bilan 2 jarayon</item>
+        <item>Ko‘pi bilan 3 jarayon</item>
+        <item>Ko‘pi bilan 4 jarayon</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN oldindan umumiy foydalanish kalitlariga ega</item>
+        <item>L2TP/IPSec VPN sertifikatlarga ega</item>
+        <item>IPSec VPN oldindan umumiy foydalanish kalitlari va XAuth tekshiruviga ega</item>
+        <item>IPSec VPN sertifikatlarga va XAuth tekshiruviga ega</item>
+        <item>IPSec VPN sertifikatlarga va gibrid tekshiruviga ega</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Uzilgan</item>
+        <item>Initsializatsiyalanmoqda...</item>
+        <item>Ulanmoqda...</item>
+        <item>Ulangan</item>
+        <item>Taym-aut</item>
+        <item>Muvaffaqiyatsiz</item>
+    </string-array>
+    <string-array name="psm_values_new">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="psm_brightness_entries">
+        <item>10%</item>
+        <item>30%</item>
+        <item>50%</item>
+        <item>70%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="psm_brightness_values">
+        <item>10</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pen_hand_side_entries">
+        <item>Chapaqay</item>
+        <item>O‘naqay</item>
+    </string-array>
+    <string-array name="apn_type_key">
+        <item>default,supl,mms</item>
+        <item>default,supl</item>
+        <item>MMS</item>
+    </string-array>
+    <string-array name="apn_ently_key_includeDUN">
+        <item>Internet + MMS + DUN</item>
+        <item>Internet + MMS</item>
+        <item>Internet + DUN</item>
+        <item>Internet</item>
+        <item>MMS</item>
+        <item>DUN</item>
+    </string-array>
+    <string-array name="apn_type_key_includeDUN">
+        <item>default,supl,mms,dun</item>
+        <item>default,supl,mms</item>
+        <item>default,supl,dun</item>
+        <item>default,supl</item>
+        <item>MMS</item>
+        <item>dun</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Yuqori</item>
+        <item>O‘rtacha</item>
+        <item>Past</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 soniya</item>
+        <item>6 soniya</item>
+        <item>Har doim o‘ch.</item>
+        <item>Har doim yoq.</item>
+    </string-array>
+    <string-array name="psm_entries_new">
+        <item>10% batareya quvvati</item>
+        <item>20% batareya quvvati</item>
+        <item>30% batareya quvvati</item>
+        <item>40% batareya quvvati</item>
+        <item>50% batareya quvvati</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Top</item>
+        <item>O‘rta</item>
+        <item>Quyi</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Karnay</item>
+        <item>SHK</item>
+        <item>Telefon</item>
+        <item>HID (klaviatura, sichqoncha va boshq.)</item>
+        <item>Hamma qurilmalar</item>
+    </string-array>
+</resources>

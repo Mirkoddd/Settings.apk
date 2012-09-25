@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.SettingsSwitchPreference android:title="@string/sync_switch" android:key="manageAccountsSwitch" />
+    <PreferenceCategory android:title="@string/header_manage_accounts" android:key="manageAccountsCategory" />
+</PreferenceScreen>

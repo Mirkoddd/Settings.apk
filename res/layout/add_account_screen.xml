@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left|center" android:id="@id/add_account_textview" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/header_add_an_account" style="?android:attr/windowTitleStyle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <LinearLayout android:gravity="center" android:id="@id/add_account_cancel_layout" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:paddingRight="5.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="63.0dip">
+            <Button android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
