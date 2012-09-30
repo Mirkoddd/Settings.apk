@@ -19,6 +19,7 @@
         <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ModePreview" />
     </PreferenceScreen>
     <CheckBoxPreference android:title="@string/accelerometer_title" android:key="accelerometer" />
+    <CheckBoxPreference android:title="@string/crtanimation_title" android:summary="@string/crtanimation_summary" android:key="crt_animation" />
     <ListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/screen_timeout_values" />
     <com.android.settings.flipfont.FontListPreference android:title="@string/monotype_preference_title" android:key="MONOTYPE" android:summary="@string/monotype_preference_summary" android:widgetLayout="@layout/round_more_icon" />
     <com.android.settings.FontSizeListPreference android:entries="@array/entries_font_size" android:title="@string/title_font_size" android:key="font_size" android:summary="@string/summary_font_size" android:widgetLayout="@layout/round_more_icon" android:dialogTitle="@string/dialog_title_font_size" android:entryValues="@array/entryvalues_font_size" />

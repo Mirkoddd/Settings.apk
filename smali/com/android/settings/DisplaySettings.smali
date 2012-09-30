@@ -49,6 +49,7 @@
 
 .field private mWeatherSettings:Landroid/preference/PreferenceScreen;
 
+.field private mCrtAnimation:Landroid/preference/CheckBoxPreference;
 
 # direct methods
 .method public constructor <init>()V
@@ -1115,6 +1116,24 @@
     invoke-virtual {v0, v1}, Lcom/android/settings/DisplaySettings;->addPreferencesFromResource(I)V
 
     .line 179
+    const-string v20, "crt_animation"
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, v20
+
+    invoke-virtual {v0, v1}, Lcom/android/settings/DisplaySettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v20
+
+    check-cast v20, Landroid/preference/CheckBoxPreference;
+
+    move-object/from16 v0, v20
+
+    move-object/from16 v1, p0
+
+    iput-object v0, v1, Lcom/android/settings/DisplaySettings;->mCrtAnimation:Landroid/preference/CheckBoxPreference;
+
     const-string v20, "clock"
 
     move-object/from16 v0, p0
@@ -3749,7 +3768,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_44
+    if-eqz v2, :cond_new
 
     .line 661
     invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
@@ -3775,7 +3794,28 @@
     move v0, v1
 
     goto :goto_1be
-.end method
+
+    :cond_new
+    iget-object v4, p0, Lcom/android/settings/DisplaySettings;->mCrtAnimation:Landroid/preference/CheckBoxPreference;
+
+    if-ne p2, v4, :cond_44
+
+    const-string v3, "crt_animation"
+
+    iget-object v0, p0, Lcom/android/settings/DisplaySettings;->mCrtAnimation:Landroid/preference/CheckBoxPreference;
+ 
+    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+
+    move-result v2
+
+    invoke-virtual {p0}, Lcom/android/settings/DisplaySettings;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v4
+
+    invoke-static {v4, v3, v2}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+
+    goto :cond_44
+ .end method
 
 .method public onResume()V
     .registers 8

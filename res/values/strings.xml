@@ -2493,4 +2493,6 @@ You can download and install PC Kies from http://www.samsung.com/kies in order t
     <string name="cmcc_plmn">CMCC</string>
     <string name="cu_plmn">CU-CHN</string>
     <string name="rcs_settings_title">joyn services</string>
+    <string name="crtanimation_title">Enable CRT Animation</string>
+    <string name="crtanimation_summary">Animation when powering off screen</string>
 </resources>
