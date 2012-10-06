@@ -2495,4 +2495,6 @@ You can download and install PC Kies from http://www.samsung.com/kies in order t
     <string name="rcs_settings_title">joyn services</string>
     <string name="crtanimation_title">Enable CRT Animation</string>
     <string name="crtanimation_summary">Animation when powering off screen</string>
+    <string name="aosp_lock_title">AOSP Lockscreen</string>
+    <string name="aosp_lock_summary">Enable AOSP Lockscreen</string>
 </resources>
